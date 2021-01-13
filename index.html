@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <section>
+                <form id="getWeather" action="#" method="GET">
+                    <label>
+                        Weather:
+                        <input type="text" name="Weather" id="cityNameInput" placeholder="enter your city?" />
+                        <button id="showModalButton" type='submit'>Search</button>
+                    </label>
+                    
+                </form>
+
+                
+            </section>
+            <section>
+                <div id="overlay"  class="overlay">
+                    <div id="modal" class="modal">
+                        <p></p>
+                        <button id="closeModalButton" class="close" type="button">x</button>
+                    </div>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="/js/get.js"></script>
+<script src="/js/index.js"></script>
+</html>
