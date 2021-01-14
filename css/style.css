@@ -1,6 +1,7 @@
 html {
-    font-size: 34px;
+    font-size: 45px;
     box-sizing: border-box;
+    color: rgb(126, 186, 214);
 }
 
 
@@ -18,10 +19,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 360px;
-    width: 100%;
+    max-width: 559px;
+    width: 100%;   
+    padding: 5%;
 }
 
+.mytext{
+    height: 40px;
+    width: 200px;
+}
 
 .overlay {
     display: none;

@@ -19,8 +19,6 @@ function getWeather(city) {
 function toggleModal() { 
     const modalOverlay = document.querySelector("#overlay");
     modalOverlay.classList.toggle("visible");
-    
-
 }
 
 showModalButton.addEventListener('click', function(event){
