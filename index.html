@@ -13,7 +13,7 @@
                 <form id="getWeather" action="#" method="GET">
                     <label>
                         Weather:
-                        <input type="text" name="Weather" id="cityNameInput" placeholder="enter your city?" />
+                        <input type="text" name="cityNameInput" id="cityNameInput" placeholder="enter your city?" />
                         <button id="showModalButton" type='submit'>Search</button>
                     </label>
                     
@@ -24,7 +24,8 @@
             <section>
                 <div id="overlay"  class="overlay">
                     <div id="modal" class="modal">
-                        <p></p>
+                        <p id="city"></p>
+                        <p id="weather"></p>
                         <button id="closeModalButton" class="close" type="button">x</button>
                     </div>
             </section>
